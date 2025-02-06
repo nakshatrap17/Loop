@@ -1,0 +1,14 @@
+//import java.util.Scanner;
+class AlphabetInc
+{
+	public static void main(String[] args) 
+	{
+		//System.out.println("Hello World!");
+		int i=0;
+		for(char ch='A';ch<='Z';ch+=i )
+		{
+			System.out.println(ch);
+			i++;
+		}
+	}
+}
